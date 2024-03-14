@@ -20,6 +20,5 @@ def derive_ethereum_address(public_key_hex):
 private_key_hex, public_key_hex = generate_ethereum_keypair()
 print(f"Chave Privada Ethereum: {private_key_hex}")
 
-
 ethereum_address = derive_ethereum_address(public_key_hex)
 print(f"Endereço Ethereum: {ethereum_address}")
